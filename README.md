@@ -44,7 +44,7 @@ and the following libraries to be installed:
 1. Clone the repository:
 
   ```bash
-   !!!git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/mehdimkz/Bupa-Exchange-Rates-Analysis.git
 ```
 2. You can install the dependencies by running the following commands:
 
@@ -62,12 +62,12 @@ API_KEY = your-api-key
 
 To run the script, follow one of the methods below:
  1. Command Line:
-Open the command line interface and navigate to the directory where the script exchange_rate.py is located. Then execute the following command:
+Open the command line interface and navigate to the directory where the script `exchange_rate.py` is located. Then execute the following command:
 ```
 python exchange_rate.py
 ```
 2. Jupyter Notebook:
-Open Jupyter Notebook and navigate to the directory where the 'exchange_rate2.ipynb' file is located. Open the file and run the cells inside the notebook to execute the script.
+Open Jupyter Notebook and navigate to the directory where the `exchange_rate.ipynb` file is located. Open the file and run the cells inside the notebook to execute the script.
 
 This will generate the following outputs:
 
