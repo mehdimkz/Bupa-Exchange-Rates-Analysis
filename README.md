@@ -147,12 +147,12 @@ Functions that interact with external resources (e.g., API requests) utilize the
 This allows mocking external dependencies like the API response, ensuring tests are independent of external factors.
 
 **Specific examples:**
-`test_get_date_range`: Verifies the calculation of the desired date range based on the specified number of days.
-`test_build_request_url`: Ensures the correct construction of the API request URL with the base URL, API key, base currency, and target date
-`test_fetch_exchange_rate`: Mocks the requests.get function to simulate successful and unsuccessful API responses.
-`test_fetch_exchange_rate_data`: Mocks the fetch_exchange_rate function to ensure that fetch_exchange_rate_data can handle a single date and populate the DataFrame correctly, other scenarios also can be added.
-`test_calculate_exchange_rate_statistics`: Tests the function with empty and single-record DataFrames, verifying correct calculations.
-`test_print_report`: Tests the report generation with both empty and populated DataFrames, asserting the presence of expected information.
+`test_get_date_range`: Verifies the calculation of the desired date range based on the specified number of days. \
+`test_build_request_url`: Ensures the correct construction of the API request URL with the base URL, API key, base currency, and target date. \
+`test_fetch_exchange_rate`: Mocks the requests.get function to simulate successful and unsuccessful API responses. \
+`test_fetch_exchange_rate_data`: Mocks the fetch_exchange_rate function to ensure that fetch_exchange_rate_data can handle a single date and populate the DataFrame correctly, other scenarios also can be added. \
+`test_calculate_exchange_rate_statistics`: Tests the function with empty and single-record DataFrames, verifying correct calculations. \
+`test_print_report`: Tests the report generation with both empty and populated DataFrames, asserting the presence of expected information. \
 
 ### Key Design Principles
 
