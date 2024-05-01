@@ -105,7 +105,7 @@ The Function displays the DataFrame along with a summary report containing the s
 
 #### 5. Script Orchestration:
 - **Function:**
-`main()`, It defines the overall flow of the script by sequentially calling functions like:
+`main()`, It defines the overall flow of the script by sequentially calling functions like: \
 `get_api_key`: Retrieves the API key from the configuration file. \
 `fetch_exchange_rate_data`: Fetches exchange rate data for the specified date range. \
 `calculate_exchange_rate_statistics`: Calculates key statistics from the exchange rate data. \
@@ -146,7 +146,7 @@ These tests isolate the behavior of each function, verifying its correctness und
 Functions that interact with external resources (e.g., API requests) utilize the `monkeypatch` fixture from `unittest.mock`.
 This allows mocking external dependencies like the API response, ensuring tests are independent of external factors.
 
-**Specific examples:**
+**Specific examples:** \
 `test_get_date_range`: Verifies the calculation of the desired date range based on the specified number of days. \
 `test_build_request_url`: Ensures the correct construction of the API request URL with the base URL, API key, base currency, and target date. \
 `test_fetch_exchange_rate`: Mocks the requests.get function to simulate successful and unsuccessful API responses. \
