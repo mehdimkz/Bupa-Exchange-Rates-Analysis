@@ -104,13 +104,13 @@ This function generates a line plot visualizing the exchange rate trend over tim
 The Function displays the DataFrame along with a summary report containing the start and end dates, number of days, and calculated statistics.
 
 #### 5. Script Orchestration:
-- **Function:** `main()`
-It defines the overall flow of the script by sequentially calling functions like:
-`get_api_key`: Retrieves the API key from the configuration file.
-`fetch_exchange_rate_data`: Fetches exchange rate data for the specified date range.
-`calculate_exchange_rate_statistics`: Calculates key statistics from the exchange rate data.
-`print_report`: Prints the report summarizing the analysis results.
-`plot_exchange_rate_data`: Generates the exchange rate plot.
+- **Function:**
+`main()`, It defines the overall flow of the script by sequentially calling functions like:
+`get_api_key`: Retrieves the API key from the configuration file. \
+`fetch_exchange_rate_data`: Fetches exchange rate data for the specified date range. \
+`calculate_exchange_rate_statistics`: Calculates key statistics from the exchange rate data. \
+`print_report`: Prints the report summarizing the analysis results. \
+`plot_exchange_rate_data`: Generates the exchange rate plot. \
 Additional functions for saving data to CSV files.
 
 ***By encapsulating the core functionality within the `main` function, I improve code organization and maintainability.***
