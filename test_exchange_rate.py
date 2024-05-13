@@ -51,7 +51,7 @@ def test_fetch_exchange_rate(monkeypatch):
 
     # Call the function and assert the returned value
     nzd_value = fetch_exchange_rate(api_url, current_date_str, cache)
-    assert fetch_exchange_rate(api_url, current_date_str, cache) is None
+    assert nzd_value == expected_nzd_value
 
 
 
